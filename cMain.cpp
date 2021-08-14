@@ -74,7 +74,7 @@ void cMain::CountButton(wxCommandEvent& evt)
 	
 	m_list1 = new wxTextCtrl(this, wxID_ANY, std::to_string(roundTwoDecimals(i)), wxPoint(20, 200), wxSize(120, 40), wxTE_READONLY);m_list1->SetFont(myFont);
 	
-	std::cout << roundTwoDecimals(i) << std::endl;
+	//std::cout << roundTwoDecimals(i) << std::endl;
 	evt.Skip();
 }
 
