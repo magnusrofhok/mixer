@@ -38,7 +38,7 @@ cMain::cMain() : wxFrame(nullptr, wxID_ANY, "Mixer", wxPoint(200, 200), wxSize(S
 void cMain::CountButton(wxCommandEvent& evt)
 {
 	std::string m_txtStartVolymChanged (m_txtStartVolym->GetValue());
-	std::cout << m_txtStartVolymChanged << std::endl;
+	//std::cout << m_txtStartVolymChanged << std::endl;
 	int position = m_txtStartVolymChanged.find(",");
 	while (position != std::string::npos)
 	{
