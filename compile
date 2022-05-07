@@ -1,0 +1,5 @@
+#!/bin/bash
+g++  main.cpp `wx-config --cxxflags wx-config --libs all` -o mixer.bin
+echo "compiled"
+echo "running"
+./mixer.bin
